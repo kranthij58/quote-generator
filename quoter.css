@@ -7,7 +7,7 @@ body {
  
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 
@@ -20,7 +20,11 @@ body {
   margin: 150px;
   margin-bottom: 100px;
   height: 60px;
-  font-family: cursive;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   font-size: larger;
   padding: 30px;
   border-radius: 10px;
