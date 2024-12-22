@@ -4,7 +4,13 @@ body {
 .head {
   color: whitesmoke;
   font-size: larger;
-  font-family: cursive;
+ 
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
   position: fixed;
   right: 42%;
   top: 30px;
