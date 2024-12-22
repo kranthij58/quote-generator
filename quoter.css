@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+}
+.head {
+  color: whitesmoke;
+  font-size: larger;
+  font-family: cursive;
+  position: fixed;
+  right: 42%;
+  top: 30px;
+}
+.Quote {
+  background-color: aliceblue;
+  margin: 150px;
+  margin-bottom: 100px;
+  height: 60px;
+  font-family: cursive;
+  font-size: larger;
+  padding: 30px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+.generate-button {
+  margin-left: 46%;
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: cursive;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.generate-button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+.generate-button:hover::before {
+  width: 9em;
+}
+
+@media (min-width: 10px) and (max-width: 800px) {
+  .head {
+    font-size: medium;
+    right: 28%;
+    top: 30px;
+  }
+  .generate-button {
+    margin-left: 40%;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .Quote {
+    margin: 100px;
+    height: 40px;
+    font-family: cursive;
+    font-size: medium;
+    margin-bottom: 30px;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .head {
+    font-size: large;
+    right: 35%;
+  }
+  .generate-button {
+    margin-left: 43%;
+    font-size: 14px;
+  }
+  .Quote {
+    margin: 120px;
+    height: 50px;
+    font-size: large;
+    margin-bottom: 70px;
+    margin-top: 140px;
+  }
+}
